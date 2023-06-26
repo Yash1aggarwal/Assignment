@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    left: 140px;
+    border: 2px solid black;
+    margin: 10px;
+    width: 1100px;  
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(213, 205, 205);
+    height: 46rem;
+    width: 20rem;
+    position: sticky;
+    top: 0px;
+}
+
+.nav li{
+    list-style: none;
+    padding: 25px 65px;
+
+}
+
+.nav a{
+    text-decoration: none;  
+    font-size: 1.4rem;  
+    color: black; 
+} 
+
+/* Home Section */
+
+.home{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.home img{
+   background-size: cover;
+   width: 50rem;
+   height: 41rem;
+}
+
+/* Contact Section */
+#contact{
+    height: 50rem;
+}
+
+.contact{
+    font-size: 2rem;
+    margin: 10px;
+}
+.box1{
+    padding: 10px;
+    width: 60%;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 11px;
+    margin-top: 1.5rem;
+    font-size: 25px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 6px;
+}
+
+.btn{
+    margin: 12px 0px;
+    background-color: black ;
+    /* background-color: transparent; */
+    color: white;
+    padding: 12px 14px;
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 140px;
+}
+
+.btn:hover{
+    background-color: grey;
+}
+
+/* Information Section */
+#information{
+    height: 50rem;
+}
+
+.info{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.info1{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Guide Section */
+#guide{
+    height: 50rem;
+}
+
+.guide{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.guide1{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
